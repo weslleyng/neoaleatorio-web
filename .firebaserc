@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "neoaleatorio": {
+      "hosting": {
+        "neoaletio-web": [
+          "neoaleatorio"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "neoaleatorio"
+  }
+}

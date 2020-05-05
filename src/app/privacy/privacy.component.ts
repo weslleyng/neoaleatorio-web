@@ -1,15 +1,10 @@
-import { Component } from '@angular/core';
-import {
-  trigger,
-  state,
-  style,
-  animate,
-  transition
-} from '@angular/animations';
+import { Component, OnInit } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-privacy',
+  templateUrl: './privacy.component.html',
+  styleUrls: ['./privacy.component.css'],
   animations : [
     trigger('openClose', [
       // ...
@@ -32,6 +27,11 @@ import {
     ])
   ]
 })
-export class AppComponent {
-  title = 'Neoaleatório';
+export class PrivacyComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }
